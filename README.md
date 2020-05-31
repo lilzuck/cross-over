@@ -20,7 +20,7 @@ mkdir -p $TEXT
 tar -xzvf wmt16_en_de.tar.gz -C $TEXT
 ```
 
-Preprocess the data with a joined dictionary.
+Then, preprocess the data with a joined dictionary.
 ```
 fairseq-preprocess \
     --source-lang en --target-lang de \
