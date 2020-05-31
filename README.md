@@ -4,7 +4,12 @@ This page includes instructions to reproduce WMT14 en-de results as an example.
 More instructions / examples coming soon.
 
 # Prerequisites
-This codebase is based on fairseq. Please follow fairseq to set up instructions [here](https://drive.google.com/uc?export=download&id=0B_bZck-ksdkpM25jRUN2X2UxMm8)
+This codebase is based on fairseq. Please follow fairseq to set up instructions [here](https://drive.google.com/uc?export=download&id=0B_bZck-ksdkpM25jRUN2X2UxMm8). <br />
+```
+pip install --editable .
+pip install sacremoses
+```
+
 
 # Data Preprocessing
 First download the [preprocessed WMT'16 data](https://drive.google.com/uc?export=download&id=0B_bZck-ksdkpM25jRUN2X2UxMm8). <br />
