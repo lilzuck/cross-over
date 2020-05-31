@@ -21,7 +21,9 @@ tar -xzvf wmt16_en_de.tar.gz -C $TEXT
 ```
 
 Then, preprocess the data with a joined dictionary.
+
 ```
+TEXT=wmt16_en_de_bpe32k
 fairseq-preprocess \
     --source-lang en --target-lang de \
     --trainpref $TEXT/train.tok.clean.bpe.32000 \
